@@ -1,3 +1,66 @@
-.title {
-  color: #02ccba;
+body {
+	margin : 0; 
+}
+
+.main-content {
+	background-image: url("BG.png");
+	background-size: cover;
+	padding : 200px 0;
+}
+
+.container {
+	margin : 0 auto;
+	text-align : center;
+	color : #ccffff;
+	padding : 45px 0;
+	background-color : rgba(230, 230, 255, 0.3); 
+	width : 100%;
+}
+
+.container h1{
+	font-size : 60px;
+	font-family: 'Teko', sans-serif;
+}
+
+.container p{
+	font-size : 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background-color : rgba(0, 26, 26, 0.6);
+	position : fixed;
+	width : 100%;
+
+}
+
+.head-container {
+	width : 95%;
+	margin : 0 auto;
+	height : 60px;
+}
+img {
+	width : 60px;
+	padding : 15px 0;
+}
+
+footer {
+	margin : 0;
+	background-color : #001a1a;
+}
+.foot-container {
+	margin : 0 auto;
+	width : 95%;
+}
+footer ul {
+	list-style : none;
+	font-size : 10px;
+	color : white;
+	font-family: 'Montserrat', sans-serif;
+	margin : 0;
+	padding : 5px 0;
+}
+
+footer li {
+	padding : 1px 0;
 }
